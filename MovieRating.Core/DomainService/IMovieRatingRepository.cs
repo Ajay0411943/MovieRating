@@ -7,7 +7,7 @@ namespace MovieRating.Core.DomainService
     public interface IMovieRatingRepository
     {
 
-        List<MovieRating> GetTopMovies(int number);
+        List<Rating> GetTopRateMovies(int number);
        
     }
 }
