@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieRating.Core.Entity\MovieRating.Core.Entity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ApplicationService\" />
+    <Folder Include="DomainService\" />
+    <Folder Include="ApplicationService\Services\" />
+  </ItemGroup>
+</Project>
