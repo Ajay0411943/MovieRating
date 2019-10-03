@@ -5,12 +5,12 @@ namespace MovieRating.Core.Entity
     {
         public Rating() { }
 
-        public Rating(int reviewerId, int movieId, int grade, DateTime Date)
+        public Rating(int reviewerId, int movieId, int grade, DateTime date)
         {
             ReviewerId = reviewerId;
             MovieId = movieId;
             Grade = grade;
-           Date = Date;
+            Date = date;
 
         }
 

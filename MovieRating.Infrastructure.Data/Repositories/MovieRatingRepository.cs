@@ -12,22 +12,60 @@ namespace MovieRating.Infrastructure.Data.Repositories
             
         }
 
-        public Rating AddRating(int reviewerId, int movieId, int grade, DateTime Date)
-        {
-            FakeMovieRatingRepository fakerepo = new FakeMovieRatingRepository();
-            fakerepo.AddRating(new Rating(1, 1, 5, DateTime.Now));
-
-
-
-            return null;
-        }
-
-
-        public List<Rating> GetTopRateMovies(int number)
+        public double AverageRatingByReviewer(int reviewer)
         {
             throw new NotImplementedException();
+        }
 
+        public double AverageRatingOnMovie(int movie)
+        {
+            throw new NotImplementedException();
+        }
 
+        public int GetCountOfGradesByReviewer(int reviewer, int grade)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetCountOfMovieByGrade(int movie, int grade)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetCountOfMovieReviews(int movie)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Rating> GetMoviesByReviewer(int reviewer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Rating> GetReviewersByMovie(int movie)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetReviewsByReviewer(int reviewerId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<int> GetTopGradedMovies()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Rating> GetTopMovies(int number)
+        {
+            throw new NotImplementedException();
+        }
+
+      
+        public List<int> GetTopReviewers()
+        {
+            throw new NotImplementedException();
         }
     }
 }
